@@ -2,32 +2,105 @@
 <html>
 
     <head>
+        <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+               margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(32, 171, 174);
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(5, 0, 0);
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(191, 31, 31);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 20px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
         <title>Anthony J's Personal website</title>
     </head>
 
     <body>
-        <!-- All content goes here -->
-        <div>
+        <!-- "All contents goes here" -->
+        <div id="all contents">
             <nav>
-
+                <h1>Anthony J's website</h1>
+                <ul>
+                    <li>
+                        <a href="index.html">home </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html"> portfolio </a>
+                    </li>
+                </ul>
             </nav>
 
             <main>
                 <div>
-                    
+                    <img src="https://store-images.s-microsoft.com/image/apps.47040.70425489777003053.d4a90e5e-b808-44f6-a466-7d572918e2c2.e2d1a240-18af-439c-a095-3864b484660a?q=90&w=480&h=270">
                 </div>
                 <div>
-                    <h2></h2>
-                     <p></p>
-                     cooking or website making
-                     <h3>Gaming,eating</h3>
+                    <h2>Student in NLN</h2>
+                     <p>How I will progress</p>
+                     
+                     <h3>Things I like</h3>
                      <ul>
-                          <li>thing 1</li>
-                          <li>thing 2</li>
-                          <li>thing 3</li>
+                          <li>Learning how to code</li>
+                          <li>Playing my game</li>
+                          <li>Cooking</li>
                     </ul>
                      
                      <div>  
+                        <!--content section-->
+                        class="contents"
+                        id="interests"
             </main>
         </div>
     </body>
